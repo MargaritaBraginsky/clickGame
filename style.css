@@ -35,3 +35,14 @@ body{
     justify-items: center;
     width: 100%;
 }
+@media screen and (max-width: 500px){
+    
+    .buttonImg {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    body{
+        background-color: rgb(52, 52, 52);
+    }
+}
